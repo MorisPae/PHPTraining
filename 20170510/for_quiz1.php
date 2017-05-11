@@ -23,25 +23,25 @@
             if(10 < $i <= 20) {
                 print("<td>$i</td>");
             }
-            elseif(20 < $i <= 30) {
+            if(20 < $i <= 30) {
                 print("<td>$i</td>");
             }
-            elseif(30 < $i <= 40) {
+            if(30 < $i <= 40) {
                 print("<td>$i</td>");
             }
-            elseif(40 < $i <= 50) {
+            if(40 < $i <= 50) {
                 print("<td>$i</td>");
             }
-            elseif(50 < $i <= 60) {
+            if(50 < $i <= 60) {
                 print("<td>$i</td>");
             }
-            elseif(60 < $i <= 70) {
+            if(60 < $i <= 70) {
                 print("<td>$i</td>");
             }
-            elseif(70 < $i <= 80) {
+            if(70 < $i <= 80) {
                 print("<td>$i</td>");
             }
-            elseif(80 < $i <= 90) {
+            if(80 < $i <= 90) {
                 print("<td>$i</td>");
             }
             if(90 < $i <= 100) {
