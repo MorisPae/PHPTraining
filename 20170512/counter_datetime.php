@@ -1,4 +1,12 @@
 <?php
+    $file_name = "count.csv";
+    if(file_exists($file_name)) {
+        echo $file_name."が存在します<br>";
+    }
+    else {
+        echo $file_name."が存在しません<br>";
+    }
+
     $fp = fopen("count.csv", "r+");
     $str = fgets($fp);
     $count = explode(",", $str)[0];
