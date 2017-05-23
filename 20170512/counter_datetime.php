@@ -8,6 +8,13 @@
     }
 
     $fp = fopen("count.csv", "r+");
+    /*
+    while (($tmp = fgets($fp)) != false) {
+        $str = $tmp;
+        $str = trim($str);
+        $count = $str;
+    }
+    */
     $str = fgets($fp);
     $count = explode(",", $str)[0];
     $count++;
