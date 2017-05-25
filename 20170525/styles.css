@@ -1,0 +1,67 @@
+/* 初期設定
+---------------------------------------------------- */
+
+
+
+/* ページの枠組み
+---------------------------------------------------- */
+body {
+    margin: auto;
+    text-align: center;
+}
+p {
+    border-bottom: 1px solid #aaaaff;
+    display: block;
+    position: relative;
+    line-height: 1.3;
+}
+table {
+    text-align: left;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+    padding-top: 10px;
+    border-bottom: 1px solid #aaaaf0;
+    width: 180px;
+}
+div {
+    display: flex;
+    justify-content:center;
+}
+
+.main {
+    margin: 10px;
+    display: flex;
+    justify-content:center;
+}
+
+.c {
+    width: 130px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+.submit {
+    text-align: center;
+}
+
+/* ヘッダー
+---------------------------------------------------- */
+
+
+
+/* ナビゲーション
+---------------------------------------------------- */
+
+
+
+/* メインコンテンツ
+---------------------------------------------------- */
+
+
+
+/* フッター
+---------------------------------------------------- */

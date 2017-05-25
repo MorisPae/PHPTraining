@@ -1,0 +1,13 @@
+h1 {
+color:orange;
+font-size:18px;
+}
+
+span {
+    color: red;
+}
+
+p, input, textarea {
+color:gray;
+font-size:14px;
+}

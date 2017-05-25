@@ -1,0 +1,64 @@
+/*
+* {
+	border:1px solid red;
+	margin:10px;
+}
+*/
+h1 {
+	color : red ;
+}
+h2 {
+	color: orange;
+	font-size:14px;
+	margin-top:50px;
+}
+h3 {
+	margin-top:30px;
+}
+p {
+	font-size:11px;
+	clear:both;
+}
+
+
+.boxmodel {
+	padding: 10px 10px 10px 10px;
+	border:10px solid gray;
+	margin: 30px 30px 30px 30px;
+	background:yellow;
+}
+
+
+
+
+/* 親子の説明 */
+.oya {
+	border:1px solid red;
+	margin:10px;
+}
+.ko {
+	border:1px solid blue;
+	margin:10px;
+}
+
+
+
+
+/* STEP3 CSSの書き方 */
+.oya1 {
+	display:flex;
+}
+
+
+
+
+/* テーブルレイアウトの説明 */
+table, th, td {
+	border:1px dashed #ccc;
+	padding:10px;
+}
+
+p span {
+	color:red;
+}
+

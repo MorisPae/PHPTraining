@@ -1,0 +1,74 @@
+    /* 初期設定
+---------------------------------------------------- */
+
+
+
+/* ページの枠組み
+---------------------------------------------------- */
+
+h1 {
+    color: #193441;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+.main {
+    margin: auto;
+    width: 600px;
+    background-color: #E2ECCE;
+    padding: 10px;
+    border: 10px ridge #C1CBBC;
+    display: flex;
+    justify-content: center;
+}
+.form0 {
+    text-decoration: underline;
+    font-weight: bold;
+    font: #91AA9D;
+}
+.form1 {
+    font: bold;
+    padding: 5px;
+    display: flex;
+    text-align: left;
+}
+.form2 textarea {
+    width: 90%;
+    height: 100px;
+}
+.form3 {
+    font: bold;
+    padding: 5px;
+    display: flex;
+    text-align: left;
+}
+.items {
+    width: 180px;
+}
+.inputTxt {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+}
+
+
+/* ヘッダー
+---------------------------------------------------- */
+
+
+
+/* ナビゲーション
+---------------------------------------------------- */
+
+
+
+/* メインコンテンツ
+---------------------------------------------------- */
+
+
+
+/* フッター
+---------------------------------------------------- */
