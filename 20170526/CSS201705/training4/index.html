@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS練習 補足</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+<h1>CSS練習 補足</h1>
+
+<h2>HTMLタグの親要素・子要素について</h2>
+<div class="oya">
+     親です。
+     <p class="ko">子です。</p>
+     <p class="ko">子です。</p>
+</div>
+<p>
+&lt;div class=&quot;oya&quot;&gt;<br />
+     親です。<br />
+     &lt;p class=&quot;ko&quot;&gt;子です。&lt;/p&gt;<br />
+     &lt;p class=&quot;ko&quot;&gt;子です。&lt;/p&gt;<br />
+&lt;/div&gt;
+</p>
+<p>HTMLは入れ子構造。この場合、div要素に対して子要素はpになります。</p>
+
+
+<h2>ボックスモデル</h2>
+<div class="boxmodel">表示する領域</div>
+<p>chrome ＞ 表示 ＞ 開発/管理 ＞ Elementタブ で確認してみよう</p>
+
+
+<h2>書き方簡単3STEP</h2>
+<h3>STEP1 土台のHTMLを作る</h3>
+
+<form>
+名前 <input type="text" />
+住所 <input type="text" />
+</form>
+
+<h3>STEP2 HTMLの整形</h3>
+<p>※説明のためdivで統一しています。短くかける人は短くしましょう。</p>
+<form>
+<div>
+<div>名前</div>
+<div><input type="text" /></div>
+</div>
+<div>
+<div>住所</div>
+<div><input type="text" /></div>
+</div>
+</form>
+
+<h3>STEP3 CSSを書く</h3>
+<form>
+<div class="oya1">
+<div class="ko1">名前</div>
+<div class="ko2"><input type="text" /></div>
+</div>
+<div class="oya1">
+<div class="ko1">住所</div>
+<div class="ko2"><input type="text" /></div>
+</div>
+</form>
+
+
+
+
+
+
+
+<h2>テーブルレイアウト</h2>
+<p>
+HTMLにおける表は table要素 を使って表現します。<br />
+なので、W3C(※)に準拠する場合、tableはレイアウト目的での使用は非推奨です。※wwwの考案者が率いるWEB標準化団体
+</p>
+
+表とはこんなのを言います↓
+<table>
+<tr>
+<th>No.</th>
+<th>コード</th>
+<th>名称</th>
+<th>価格</th>
+</tr>
+<tr>
+<th>001</th>
+<td>1234</td>
+<td>りんご</td>
+<td>100円</td>
+</tr>
+<tr>
+<th>002</th>
+<td>1567</td>
+<td>ぶどう</td>
+<td>300円</td>
+</tr>
+</table>
+
+２列２行の表
+<table>
+<tr>
+<th>ぶどう</th>
+<td>１個</td>
+</tr>
+<tr>
+<th>りんご</th>
+<td>３個</td>
+</tr>
+</table>
+
+<p>少し無理やりですが、「送信結果の表を作るためのフォームなんだ！」という仕様であれば問題なし。</p>
+
+<form>
+<table>
+<tr>
+<th>名前</th>
+<td><input type="text" /></td>
+</tr>
+<tr>
+<th>住所</th>
+<td><input type="text" /></td>
+</tr>
+</table>
+</form>
+
+↓送信後
+<table>
+<tr>
+<th>名前</th>
+<td>山田太郎</td>
+</tr>
+<tr>
+<th>住所</th>
+<td>東京都港区</td>
+</tr>
+</table>
+
+<p><span>まずは表示されることが大事です。</span>tableのレイアウト使用は絶対禁止というわけではなく、時間がない時、デモの時、css使えない時、マーケティング関係ない時、その他諸々、tableレイアウトでも概ね問題ありません。</p>
+
+<p>※フロントの開発に関わる方はCSS使えた方が、後々自他共に苦しまなくてすみますので覚えましょう。</p>
+
+
+
+
+</body>
+</html>

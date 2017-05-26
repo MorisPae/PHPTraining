@@ -1,0 +1,203 @@
+    /* 初期設定
+---------------------------------------------------- */
+
+
+
+/* ページの枠組み
+---------------------------------------------------- */
+body {
+    background-color: #ECF0F1;
+}
+h1 {
+    color: #2C3E50;
+    font-size: 24px;
+    border-bottom: solid 3px #3498DB;
+}
+
+.steps { /*3つのステップを表示*/
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.nowstep {　/*現在のstepを鮮やかに*/
+    font-size: 18px;
+    font-weight: bold;
+    color: #2C3E50;
+    background-color: #FFF;
+    padding: 5px 10px;
+    border: 2px solid #3498DB;
+    border-radius: 10px;
+}
+.otherstep { /*その他のstepを薄く表示*/
+    /*font-size: 18px;*/
+    color: #5F8190;
+    padding: 5px 10px;
+    border: 2px solid #64C8FF;
+    border-radius: 10px;
+}
+.spacestep {
+    font-size: 18px;
+    color: #5F8190;
+    padding: 5px 10px;
+}
+.subject {
+    display: flex;
+    justify-content: center;
+}
+.main {
+    color: #2C3E50;
+    margin: auto;
+    width: 650px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border: 7px solid #ECECEC;
+    border-radius: 10px;
+}
+.form0 {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #2C3E50;
+    display: flex;
+    justify-content: center;
+}
+.form1 {
+    font: bold;
+    padding: 15px;
+    display: flex;
+    text-align: left;
+    border-bottom: 1px solid #3498DB;
+}
+.form2 textarea {
+    display: block;
+    justify-content: center;
+    width: 95%;
+    height: 100px;
+}
+.form3 {
+    font: bold;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.form4 { /*完了画面の受け取り番号*/
+    font-size: 18px;
+    font-weight: bold;
+    color: #2C3E50;
+    background-color: #FFF;
+    width: 180px;
+    padding: 5px 10px;
+    border: 2px solid #3498DB;
+    border-radius: 10px;
+    /*
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding:5px;
+    border: 2px solid #193441;
+    */
+}
+.req {
+    color: #E74C3C;
+}
+.contents {
+    padding: 15px;
+}
+.items {
+    width: 180px;
+}
+.inputTxt input, .inputTxt select {
+    font-size: 14px;
+    padding: 8px;
+}
+.inputTxt input, .inputTxt select, .form2 textarea {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: inset 1px 3px 3px -3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 1px 3px 3px -3px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 1px 3px 3px -3px rgba(0,0,0,0.5);
+}
+
+.button * {
+font-size: 14px;
+border-radius:6px; /*radius==半径*/
+background: #2980B9;
+color: #FFF;
+padding:7px 25px;
+margin:10px 20px;
+border:1px solid #3E606F;
+}
+.button a {
+    text-decoration: none;
+}
+
+/*admin*/
+.admin {
+    color: #2C3E50;
+    margin: auto;
+    width: 95%;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    /*background-color: #263A50*/ ;
+    border-collapse: collapse;
+}
+.info {
+    width: 130px;
+    border-bottom: 2px solid #263A50;
+    margin: 5px;
+
+}
+th {
+    background-color: #CCD0D1;
+    border: 2px solid #000;
+}
+td {
+    border: 2px solid #000;
+}
+.cell {
+    border: 2px solid #000;
+    margin: 0;
+    background-color: #ECF0F1;
+}
+.cell0 {
+    width: 7%;
+}
+.cell1, .cell2 {
+    width: 6%;
+}
+.cell3 {
+    width: 5%;
+}
+.cell4 {
+    width: 15%;
+}
+.cell5, .cell7{
+    width: 10%;
+}
+.cell6, .cell8 {
+    width: 12%;
+}
+.cell9 {
+    width: 22%;
+}
+/* ヘッダー
+---------------------------------------------------- */
+
+
+
+/* ナビゲーション
+---------------------------------------------------- */
+
+
+
+/* メインコンテンツ
+---------------------------------------------------- */
+
+
+
+/* フッター
+---------------------------------------------------- */
