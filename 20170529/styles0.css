@@ -1,0 +1,234 @@
+    /* 初期設定
+---------------------------------------------------- */
+
+
+
+/* ページの枠組み
+---------------------------------------------------- */
+/*各ページ全体の背景色*/
+body {
+    background-color: #ECF0F1;
+}
+/*各ページの見出し*/
+h1 {
+    color: #2C3E50;
+    font-size: 24px;
+    border-bottom: solid 3px #3498DB;
+}
+
+/*入力、確認、完了の3つのステップを表示*/
+.steps {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+/*現在のstepを鮮やかに*/
+.nowstep {　
+    font-size: 18px;
+    font-weight: bold;
+    color: #2C3E50;
+    background-color: #FFF;
+    padding: 5px 10px;
+    border: 2px solid #3498DB;
+    border-radius: 10px;
+}
+/*その他のstepを薄く表示*/
+.otherstep {
+    /*font-size: 18px;*/
+    color: #5F8190;
+    padding: 5px 10px;
+    border: 2px solid #64C8FF;
+    border-radius: 10px;
+}
+/*stepの間の-の設定*/
+.spacestep {
+    font-size: 18px;
+    color: #5F8190;
+    padding: 5px 10px;
+}
+
+/*入力、確認、完了画面の内容の大枠の設定*/
+.main {
+    color: #2C3E50;
+    margin: auto;
+    width: 700px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border: 7px solid #ECECEC;
+    border-radius: 10px;
+}
+/*入力、確認画面のページ内のタイトルのレイアウト設定*/
+.form0 {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #2C3E50;
+    display: flex;
+    justify-content: center;
+}
+/*入力、確認画面の各項目のレイアウト設定*/
+.form1 {
+    font: bold;
+    padding: 15px;
+    width: 600px;
+    display: flex;
+    text-align: left;
+    border-bottom: 1px solid #3498DB;
+}
+/*入力画面のtextareaのレイアウト設定*/
+.form2 textarea {
+    display: block;
+    justify-content: center;
+    width: 95%;
+    height: 100px;
+}
+/*submitとresetボタン、戻るボタンのレイアウト設定*/
+.form3 {
+    font: bold;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.form4 { /*完了画面の受け取り番号*/
+    font-size: 18px;
+    font-weight: bold;
+    color: #2C3E50;
+    background-color: #FFF;
+    width: 195px;
+    padding: 5px 10px;
+    border: 2px solid #3498DB;
+    border-radius: 10px;
+    /*
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding:5px;
+    border: 2px solid #193441;
+    */
+}
+/*確認画面の必須項目の※を赤く表示*/
+.req {
+    color: #E74C3C;
+}
+/*入力画面の質問内容のpaddingを指定*/
+.contents {
+    padding: 15px;
+}
+/*入力、確認画面の項目名の横幅を固定*/
+.items {
+    width: 200px;
+}
+/*入力画面のレイアウト設定*/
+.inputTxt input, .inputTxt select {
+    font-size: 14px;
+    padding: 8px;
+}
+/*input="text"の内影を追加*/
+.inputTxt input {
+    /*-webkit-border-radius: 3px;*/
+    /*-moz-border-radius: 3px;*/
+    border-radius: 3px;
+    /*-webkit-box-shadow: inset 1px 3px 3px -3px rgba(0, 0, 0, 0.5);*/
+    /*-moz-box-shadow: inset 1px 3px 3px -3px rgba(0,0,0,0.5);*/
+    box-shadow: inset 1px 3px 3px -3px rgba(0,0,0,0.5);
+}
+/*selectとtextareaにも内影を追加*/
+.inputTxt select, .form2 textarea {
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 3px 0px rgba(0,0,0,0.5);
+}
+/*各ボタンのレイアウト設定*/
+.button * {
+font-size: 14px;
+border-radius:6px; /*radius==半径*/
+background: #2980B9;
+color: #FFF;
+padding:7px 25px;
+margin:10px 20px;
+border:1px solid #3E606F;
+}
+/*未入力で戻るボタンのunderbarを消す*/
+.button a {
+    text-decoration: none;
+}
+/*入力、確認画面の表示の高さを調整*/
+.inputvalue, .inputGender {
+    height: 37px;
+}
+
+/*確認画面のテキストエリアの横幅を固定化*/
+.textarea1 {
+    width: 400px;
+}
+
+/*admin*/
+.admin {
+    color: #2C3E50;
+    margin: auto;
+    width: 95%;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    /*background-color: #263A50*/ ;
+    border-collapse: collapse;
+}
+/*ページ内のタイトルのレイアウト*/
+.info {
+    width: 130px;
+    border-bottom: 2px solid #263A50;
+    margin: 5px;
+
+}
+/*表の各項目のレイアウト*/
+th {
+    background-color: #CCD0D1;
+    border: 2px solid #000;
+}
+/*入力値のセルに縦borderを追加*/
+td {
+    border: 2px solid #000;
+}
+
+/*セル一つ一つのレイアウト設定*/
+.cell {
+    border: 2px solid #000;
+    margin: 0;
+    background-color: #ECF0F1;
+}
+.cell0, .cell1 {
+    width: 7%;
+}
+.cell2 {
+    width: 5%;
+}
+.cell3 {
+    width: 15%;
+}
+.cell4, .cell6{
+    width: 11%;
+}
+.cell5, .cell7 {
+    width: 12%;
+}
+.cell8 {
+    width: 22%;
+}
+/* ヘッダー
+---------------------------------------------------- */
+
+
+
+/* ナビゲーション
+---------------------------------------------------- */
+
+
+
+/* メインコンテンツ
+---------------------------------------------------- */
+
+
+
+/* フッター
+---------------------------------------------------- */
