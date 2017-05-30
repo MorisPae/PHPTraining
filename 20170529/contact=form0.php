@@ -80,8 +80,8 @@
             <div class="form2"><textarea name="Contents" placeholder="ここに質問内容を記入してください。"></textarea></div> <!--colspan行の結合-->
             <div class="form3">
                 <div class="button">
-                    <input type="submit" value="送信"> <!--submit送信ボタン-->
-                    <input type="reset" value="リセット"> <!--入力値をすべてリセットできるボタンをつける-->
+                    <input class="submit" type="submit" value="送信"> <!--submit送信ボタン-->
+                    <input class="reset" type="reset" value="リセット"> <!--入力値をすべてリセットできるボタンをつける-->
                 </div>
             </div>
         </form>

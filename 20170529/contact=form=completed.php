@@ -11,7 +11,7 @@
         function post($data) {
             if (isset($_POST["$data"] )) {
                 // $_POST["$data"] = str_replace("\n", "<br>", $_POST["$data"]);
-                return str_replace(",", "&#x2C;", $_POST["$data"]);
+                return str_replace(",", "&#x2C;", $_POST["$data"]); //&#x2C;はコンマの意味
             }
         }
 
