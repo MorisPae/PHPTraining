@@ -9,15 +9,15 @@
 <?php
     //入力値の受け取り&表示
     function post($data) {
-        if (isset($_POST["$data"] )) {
+        if (isset($_POST["$data"] )) { //inset: 変数に値があるかどうか確認
             echo htmlentities($_POST["$data"]); //htmlentities(): タグを文字列として扱う
         }
     }
 
     //配列になっている入力値の受け取りと表示
     function post_array($data, $char) {
-        if (is_array($_POST["$data"])) {
-            echo implode($char, $_POST["$data"]);
+        if (is_array($_POST["$data"])) { //配列かどうか確認
+            echo implode($char, $_POST["$data"]);　//指定した$char文字列で配列を結合
         }
     }
 ?>
@@ -31,7 +31,7 @@
         <div class="otherstep">STEP 3 完了画面</div>
     </div>
     <div class="main">
-    <form = action = "contact=form=completed.php" method="post">
+    <form = action = "contact=form=completed.php" method="post">　<!--データの送信先を完了画面に指定-->
         <div class="form0">記入内容をご確認ください。</div>
 
         <!-- type="hidden" 非表示データを送信する -->
@@ -95,7 +95,7 @@
                 <div class="items">どこで知ったか</div>
                 <div class="inputvalue">
                     <?php
-                        ini_set("display_errors", 0);
+                        ini_set("display_errors", 0); //エラーを表示しないようにする
                         post_array("How_Known", ",");
                      ?>
                 </div>
